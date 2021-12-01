@@ -100,7 +100,7 @@ ul a{
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-image:url('./Book Project/photos/bg.webp');
+    background-image:url('./photos/bg.webp');
 }
 .hero-text{
     display: grid;

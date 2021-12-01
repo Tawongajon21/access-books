@@ -1,4 +1,7 @@
 {
+  
+"homepage": "http://Tawongajon21.github.io/ACCESS-BOOKS-PROJECT_REACT-2021",
+
   "name": "apps",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +14,11 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    
+     
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

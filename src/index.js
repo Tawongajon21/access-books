@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './Book Project/app';
+import App from './app';
 import  "./bookProject.css";
 
 import {BrowserRouter as Router } from 'react-router-dom'
